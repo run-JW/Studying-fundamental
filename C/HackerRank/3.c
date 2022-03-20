@@ -8,7 +8,7 @@ int main()
     int x, y;
     float fx, fy;
     
-	scanf("%d %d", &x, &y);
+    scanf("%d %d", &x, &y);
     scanf("%f %f", &fx, &fy);
     
     printf("%d %d\n", x + y, x - y);
