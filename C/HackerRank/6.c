@@ -20,24 +20,26 @@ int main()
 
     if (n_endptr == n_str || *n_endptr != '\0') { exit(EXIT_FAILURE); }
 
-    if (*n_str == '1') {
+    if (*n_str == 1) {
         printf("one");
-    } else if (*n_str == '2') {
+    } else if (*n_str == 2) {
         printf("two");
-    } else if (*n_str == '3') {
+    } else if (*n_str == 3) {
         printf("three");
-    } else if (*n_str == '4') {
+    } else if (*n_str == 4) {
         printf("four");
-    } else if (*n_str == '5') {
+    } else if (*n_str == 5) {
         printf("five");
-    } else if (*n_str == '6') {
+    } else if (*n_str == 6) {
         printf("six");
-    } else if (*n_str == '7') {
+    } else if (*n_str == 7) {
         printf("seven");
-    } else if (*n_str == '8') {
+    } else if (*n_str == 8) {
         printf("eight");
-    } else if (*n_str == '9') {
+    } else if (*n_str == 9) {
         printf("nine");
+    } else {
+        printf("Greater than 9");
     }
 
     return 0;
