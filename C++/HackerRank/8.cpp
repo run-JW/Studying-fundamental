@@ -23,13 +23,9 @@ int main() {
         phoneBook.insert({key, value});
     }
     
-    for (int i = 0; i < input; i++) {
-        string key;
-        
-        cin >> key;
-        
+    while(cin >> key) {
         if (phoneBook.find(key) != phoneBook.end()) {
-            cout << key << "=" << phoneBook[key] << endl;
+            cout << name << "=" << phoneBook.find(name)=>second << endl;
         } else {
             cout << "Not found" << endl;
         }
